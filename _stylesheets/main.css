@@ -5,6 +5,6 @@
     margin: auto;
 }
 
-.carousel-indicators li {
-    border: 1px solid #39a4ff !important;
+.carousel-indicators .active {
+    border: 1px solid #39a4ff ;
 }

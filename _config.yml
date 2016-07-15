@@ -20,11 +20,16 @@ exclude:
 - script
 - vendor
 
+menu:
+  - title : Home
+    url : /
+  - title : Support
+    url : /support
+  - title : Product
+    url : url
+  - title : Contact
+    url : /contact
 collections:
-  modules:
-    output: true
-  courses:
-    output: true
 
 include:
 - _stylesheets

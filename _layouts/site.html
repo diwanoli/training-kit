@@ -7,6 +7,8 @@ layout: bare
   <title>{% if page.html_title %}{{ page.html_title }} • {% endif %}GitHub Training</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="{{ page.leadingpath }}_stylesheets/page.css">
+  <link rel="stylesheet" href="{{ page.leadingpath }}_stylesheets/main.css">
+  <link src="{{ page.leadingpath }}assets/vendor/bootstrap/dist/css/bootstrap.min.css" type="text/css"/>
 
 
   <link rel="icon" type="image/x-icon" href="/favicon.png" />
@@ -14,7 +16,7 @@ layout: bare
   <script type="text/javascript" src="{{ page.leadingpath }}js/jquery.min.js"></script>
 
   <!-- Latest compiled and minified JavaScript -->
-  <script src="{{ page.leadingpath }}assets/vendor/bootstrap-sass/dist/js/bootstrap.min.js"></script>
+  <script src="{{ page.leadingpath }}assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
   <!--Scrollsnap-->
@@ -22,19 +24,20 @@ layout: bare
   <script src="{{ page.leadingpath }}_javascript/jquery-scrollsnap-plugin/src/jquery.easing.min.js"></script>
   <script src="{{ page.leadingpath }}_javascript/jquery-scrollsnap-plugin/src/jquery.scrollsnap.js"></script>
 
-  <!--Curriculum setup JS-->
-  <script src="{{ page.leadingpath }}_javascript/curriculum.js"></script>
+  <!--Curriculum setup JS
+  <script src="{{ page.leadingpath }}_javascript/curriculum.js"></script> -->
 
-  <!--Curriculum special styling-->
+  <!--Curriculum special styling
   <link rel="stylesheet" href="{{ page.leadingpath }}assets/vendor/octicons/octicons/octicons.css" type="text/css" />
   <link rel="stylesheet" href="{{ page.leadingpath }}_stylesheets/curriculum.css" type="text/css" />
-  <link rel="stylesheet" href="{{ page.leadingpath }}_stylesheets/course.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="{{ page.leadingpath }}_stylesheets/course.css" media="screen" title="no title" charset="utf-8"> -->
 
   {% include analytics.html %}
 </head>
 
 <body {% if page.body_class %}class="{{ page.body_class }}"{% endif %} data-spy="scroll" data-target="#toc">
   {% include top.html %}
+  {% include slides.html %}
 
   {% include attention.html %}
 

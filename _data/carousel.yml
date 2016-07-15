@@ -1,0 +1,21 @@
+-
+  name : iPhone
+  topic : iPhone
+  image : '../images/apple_watch_trio_medium_2x.jpg'
+  desc : ''
+
+-
+  name : MacBook Pro
+  topic : MacBook Pro
+  image : '../images/apple_watch_trio_medium_2x.jpg'
+  desc : ''
+-
+  name : Watch
+  topic : Watch
+  image : '../images/apple_watch_trio_medium_2x.jpg'
+  desc : ''
+-
+  name : iPad
+  topic : iPad
+  image : '../images/apple_watch_trio_medium_2x.jpg'
+  desc : ''
