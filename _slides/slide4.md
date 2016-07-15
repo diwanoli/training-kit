@@ -1,0 +1,5 @@
+---
+tilte : slide
+image : '../images/'
+
+---
